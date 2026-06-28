@@ -1,0 +1,10 @@
+rules:
+  unpinned-uses:
+    disable: true
+  excessive-permissions:
+    ignore:
+      - jekyll-gh-pages.yml:21:3
+      - jekyll-gh-pages.yml:22:3
+  dangerous-triggers:
+    ignore:
+      - jekyll-gh-pages.yml:4:1

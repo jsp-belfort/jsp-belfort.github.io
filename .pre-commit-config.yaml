@@ -1,0 +1,48 @@
+---
+repos:
+  - repo: local
+    hooks:
+      - id: megalinter-incremental
+        stages:
+          - pre-commit
+        name: Run MegaLinter (skipping linters that run in project mode)
+        entry: npx --
+        language: system
+        require_serial: true
+        args:
+          - mega-linter-runner
+          - --containername
+          - "megalinter-incremental"
+          - --remove-container
+          - --fix
+          - --flavor
+          - "documentation"
+          - --env
+          - "'APPLY_FIXES=all'"
+          - --env
+          - "'CLEAR_REPORT_FOLDER=true'"
+          - --env
+          - "'LOG_LEVEL=warning'"
+          - --filesonly
+
+      - id: megalinter-full
+        name: Run MegaLinter
+        stages:
+          - pre-push
+        entry: npx --
+        language: system
+        require_serial: true
+        args:
+          - mega-linter-runner
+          - --containername
+          - "megalinter-full"
+          - --remove-container
+          - --fix
+          - --flavor
+          - "documentation"
+          - --env
+          - "'APPLY_FIXES=all'"
+          - --env
+          - "'CLEAR_REPORT_FOLDER=true'"
+          - --env
+          - "'LOG_LEVEL=warning'"
