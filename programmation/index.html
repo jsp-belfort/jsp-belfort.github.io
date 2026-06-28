@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Programmation annuelle des activités pédagogiques et des interventions de SPV, avec ressources et planning pour l'année scolaire."
+    />
+    <meta
+      name="keywords"
+      content="programmation annuelle, SPV, activités pédagogiques, planning, ressources scolaires"
+    />
+    <!-- STYLESHEETS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/fullcalendar@7.0.0/skeleton.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/fullcalendar@7.0.0/themes/monarch/theme.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/fullcalendar@7.0.0/themes/monarch/palettes/purple.css"
+      rel="stylesheet"
+    />
+    <!-- STANDARD JS -->
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@7.0.0/all/global.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@7.0.0/locales/fr/global.js"></script>
+
+    <!-- THEME JS -->
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@7.0.0/themes/monarch/global.js"></script>
+
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/tippy.js@6/themes/translucent.css"
+    />
+    <script src="dates.js"></script>
+    <script src="content.js"></script>
+    <script src="jsp1.js"></script>
+    <script src="jsp2.js"></script>
+    <script src="jsp3.js"></script>
+    <script src="jsp4.js"></script>
+    <script>
+      const VARIOUS_EVENTS = [
+        {
+          title: "Cross",
+          start: "2026-11-14T08:00:00",
+          end: "2026-11-14T17:00:00",
+
+          color: "orange",
+        },
+      ];
+
+      events = [
+        ...JSP1_EVENTS,
+        ...JSP2_EVENTS,
+        ...JSP3_EVENTS,
+        ...JSP4_EVENTS,
+        ...VARIOUS_EVENTS,
+      ];
+
+      calendar_start_date = new Date(LESSONS_DATES[0]);
+      calendar_view_start_date = calendar_start_date.setDate(
+        calendar_start_date.getDate() - 7,
+      ); // Start one week before the first lesson
+
+      calendar_end_date = new Date(LESSONS_DATES[LESSONS_DATES.length - 1]);
+      calendar_view_end_date = calendar_end_date.setDate(
+        calendar_end_date.getDate() + 7,
+      ); // End one week after the last lesson
+
+      calendar_days_duration =
+        (calendar_end_date - calendar_start_date) / (1000 * 60 * 60 * 24);
+      calendar_months_duration = Math.ceil(calendar_days_duration / 30);
+
+      document.addEventListener("DOMContentLoaded", function () {
+        var calendarEl = document.getElementById("calendar");
+        var calendar = new FullCalendar.Calendar(calendarEl, {
+          headerToolbar: {
+            start: "title",
+            center: "listAll,dayGridWeek,dayGridMonth,multiMonthYear",
+            end: "prev,today,next",
+          }, // buttons for switching between views
+
+          dayMaxEventRows: false,
+          dayMaxEvents: false,
+          borderless: true,
+          initialDate: calendar_start_date,
+          initialView: "dayGridWeek",
+          multiMonthMaxColumns: 2,
+          activeStart: calendar_start_date,
+          activeEnd: calendar_end_date,
+
+          duration: {
+            days: calendar_days_duration + 14,
+            months: calendar_months_duration,
+          },
+
+          height: "auto",
+
+          views: {
+            listAll: {
+              type: "list",
+              duration: { days: calendar_days_duration + 14 },
+              activeStart: calendar_start_date,
+              activeEnd: calendar_end_date,
+            },
+            timeGridWeek: {},
+            dayGridYear: {
+              type: "dayGrid",
+            },
+            dayGridMonth: {
+              dayMaxEventRows: 4,
+              dayMaxEvents: 4,
+              height: "auto",
+              aspectRatio: 2.3,
+            },
+            multiMonthYear: {
+              dayMaxEventRows: 4,
+              dayMaxEvents: 4,
+              aspectRatio: 1,
+              multiMonthMaxColumns: 2,
+            },
+          },
+
+          locale: "fr",
+
+          businessHours: {
+            daysOfWeek: [7], // Sunday
+            startTime: "08:00", // 8am
+            endTime: "12:00", // 6pm
+          },
+
+          events: events,
+
+          defaultAllDay: false,
+          defaultTimedEventDuration: "04:00:00",
+
+          eventDidMount: function (info) {
+            // Construire le contenu du tooltip
+            let tooltipContent = `<h2>${info.event.title}</h2>`;
+            const locationHtml =
+              info.event.extendedProps.location &&
+              info.event.extendedProps.location.length
+                ? `<h3>📍${info.event.extendedProps.location}</h3>`
+                : "";
+            tooltipContent += locationHtml;
+
+            if (info.event.extendedProps.content) {
+              tooltipContent += info.event.extendedProps.content
+                .map((c) => {
+                  const importantHtml =
+                    c.important && c.important.length
+                      ? `<p>☝️ Notions importantes: <ul><li>${c.important.join("</li><li>")}</li></ul></p>`
+                      : "";
+                  const bookPages =
+                    c.book && c.book.length
+                      ? `<p>📚 <em>Page(s) ${c.book}</em></p>`
+                      : "";
+                  return `<h3>📖 ${c.theme}</h3><p>${locationHtml}${importantHtml}${bookPages}</p>`;
+                })
+                .join("<hr style='margin: 5px 0;'>");
+            }
+
+            const lessonCounts = info.event.extendedProps.lessonCounts;
+            if (lessonCounts && Object.keys(lessonCounts).length) {
+              console.log("Lessons: ", lessonCounts);
+              const sortedLessonCounts = Object.entries(lessonCounts).sort(
+                ([lessonA], [lessonB]) => lessonA.localeCompare(lessonB),
+              );
+              console.log("sortedLessonCounts: ", sortedLessonCounts);
+
+              const lessonCountHtml = sortedLessonCounts
+                .map(([lesson, count]) => `${lesson} × ${count}`)
+                .join(", ");
+              tooltipContent += `<h3>📊 Comptage des leçons</h3><p>${lessonCountHtml}</p>`;
+            }
+
+            // Create the tooltip using Tippy.js
+            tippy(info.el, {
+              content: tooltipContent,
+              allowHTML: true,
+              theme: "translucent",
+              placement: "top",
+              delay: [200, 0],
+            });
+          },
+        });
+
+        calendar.render();
+      });
+    </script>
+    <title>Programmation Annuelle - JSP</title>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+
+  <body>
+    <div id="calendar"></div>
+  </body>
+</html>
