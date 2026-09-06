@@ -229,13 +229,13 @@ const JSP3_CONTENT = {
   "INC-A1": {
     theme: "L'explosimétrie et la coupure des fluides",
     method: "",
-    important: [],
+    important: ["Ce qu'on peut couper (seulement les vannes client)"],
     book: "98-108",
   },
   "INC-A2": {
     theme: "L'engagement sous ARI",
     method: "",
-    important: [],
+    important: ["La communication chef / équipier", "Le contrôle croisé", "Ligne guide +++"],
     book: "109-121",
   },
   "INC-A3": {
@@ -246,14 +246,14 @@ const JSP3_CONTENT = {
   },
   "INC-B1": {
     theme: "Le lot de sauvetage et de protection contre les chutes",
-    method: "",
-    important: [],
+    method: "Travail en groupes",
+    important: ["Faire 3 groupes qui expliquent chacun: sauvetage par l'extérieur, reconnaissance (point fixe humain), sauvetage en excavation", "Demander qui fait quoi \+ précautions."],
     book: "132-139",
   },
   "INC-B2": {
     theme: "L'échelle à crochets",
-    method: "",
-    important: [],
+    method: "Théorique en salle sur la nomenclature: ils préparent un exposé sur nomenclature et usages",
+    important: ["Sécurité++"],
     book: "140",
   },
   "INC-C1": {
@@ -270,8 +270,8 @@ const JSP3_CONTENT = {
   },
   "INC-C3": {
     theme: "Les établissements",
-    method: "",
-    important: [],
+    method: "Pratique ETB1, ETB2, ETB3 de plain pied et en étage",
+    important: ["Demander si besoin de réviser ETB après l'éval pour décomposer la manœuvre Un chef J3-J4 et un équipier J2"],
     book: "149-155",
   },
   "INC-C4": {
@@ -282,13 +282,13 @@ const JSP3_CONTENT = {
   },
   "PPBE-A1": {
     theme: "Matériels d'épuisement et d'assèchement",
-    method: "",
-    important: [],
+    method: "Théorique: calcul de volumes, différences entre assèchement et épuisement, puis pratique devant le CS",
+    important: ["La propreté de l'établissement", "la cavitation", "Calculs de durée", "sécurité: pas de groupe thermique en intérieur, utiliser le disjoncteur de l’aspi du VTU, etc", "attention à la prise de terre !"],
     book: "165-167",
   },
   "SC-A1": {
     theme: "Les risques majeurs et l'information de la population",
-    method: "",
+    method: "Exposé - Un binôme par risque",
     important: [],
     book: "169-190",
   },
@@ -446,8 +446,8 @@ const JSP4_CONTENT = {
   },
   M: {
     theme: "Manœuvres",
-    method: "",
-    important: [],
+    method: "Pratique sur le plateau",
+    important: ["Fluidité & communication", "Ouverture de l'eau sur ordre sauf de plain pied"],
     book: "",
   },
 };

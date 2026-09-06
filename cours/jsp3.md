@@ -1,135 +1,214 @@
 # Cours JSP3
 
-## Cours 1 (23/11/2025)
+## Cours 1 (20/09/2026)
 
-| Thème                                     | Méthode | Insister sur                                       | Livre J3 | Fiche     |
-|:------------------------------------------|:--------|:---------------------------------------------------|:---------|:----------|
-| L’explosimétrie et la coupure des fluides | Théorie | Ce qu’on peut couper (seulement les vannes client) | 78 \- 88 | INC \- A1 |
-| Manœuvres                                 |         |                                                    |          |           |
+| Thème                                     | Méthode | Insister sur                                       | Livre J3 | Fiche  |
+|:------------------------------------------|:--------|:---------------------------------------------------|:---------|:-------|
+| L'explosimétrie et la coupure des fluides |         | Ce qu'on peut couper (seulement les vannes client) | 98-108   | INC-A1 |
+| Manœuvres                                 |         |                                                    |          |        |
 
-## Cours 2 (30/11/2025)
+## Cours 2 (27/09/2026)
 
-| Thème                                                 | Méthode   | Insister sur                     | Livre J3   | Fiche     |
-|:------------------------------------------------------|:----------|:---------------------------------|:-----------|:----------|
-| L’engagement sous ARI                                 | Théorique | La communication chef / équipier | 89-99      | INC \- A2 |
-| Les risques majeurs et l’information de la population | Exposé    | Un binôme par risque             | 147 \- 168 | SC \- A1  |
-| Manœuvres                                             |           |                                  |            |           |
+| Thème                                                 | Méthode                       | Insister sur                                                              | Livre J3 | Fiche  |
+|:------------------------------------------------------|:------------------------------|:--------------------------------------------------------------------------|:---------|:-------|
+| L'engagement sous ARI                                 |                               | La communication chef / équipier<br>Le contrôle croisé<br>Ligne guide +++ | 109-121  | INC-A2 |
+| Les risques majeurs et l'information de la population | Exposé - Un binôme par risque |                                                                           | 169-190  | SC-A1  |
+| Manœuvres                                             |                               |                                                                           |          |        |
 
-## Cours 3 (07/12/2025)
+## Cours 3 (04/10/2026)
 
-| Thème                                          | Méthode | Insister sur | Livre J3 | Fiche     |
-|:-----------------------------------------------|:--------|:-------------|:---------|:----------|
-| Les systèmes d’information et de communication |         |              |          | INC \- A3 |
-| L’organisation et les missions du SIS          |         |              |          | SC \- B1  |
-| Manœuvres                                      |         |              |          |           |
+| Thème                                          | Méthode | Insister sur | Livre J3 | Fiche  |
+|:-----------------------------------------------|:--------|:-------------|:---------|:-------|
+| Les systèmes d'information et de communication |         |              | 122-130  | INC-A3 |
+| L'organisation et les missions du SIS          |         |              | 192-195  | SC-B1  |
+| Manœuvres                                      |         |              |          |        |
 
-## Cours 4 (14/12/2025)
+## Cours 4 (11/10/2026)
 
-| Thème                                                  | Méthode | Insister sur | Livre J3 | Fiche     |
-|:-------------------------------------------------------|:--------|:-------------|:---------|:----------|
-| Le lot de sauvetage et de protection contre les chutes |         |              |          | INC \- B1 |
-| Notions élémentaires d’hydraulique                     |         |              | 115      | INC \- C1 |
-| Manœuvres                                              |         |              |          |           |
+| Thème                                                  | Méthode            | Insister sur                                                                                                                                                            | Livre J3 | Fiche  |
+|:-------------------------------------------------------|:-------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------|:-------|
+| Le lot de sauvetage et de protection contre les chutes | Travail en groupes | Faire 3 groupes qui expliquent chacun: sauvetage par l'extérieur, reconnaissance (point fixe humain), sauvetage en excavation<br>Demander qui fait quoi \+ précautions. | 132-139  | INC-B1 |
+| Notions élémentaires d'hydraulique                     |                    |                                                                                                                                                                         | 143      | INC-C1 |
+| Manœuvres                                              |                    |                                                                                                                                                                         |          |        |
 
-## Cours 5 (18/01/2026)
+## Cours 5 (08/11/2026)
 
-| Thème                     | Méthode                                                                                    | Insister sur | Livre J3   | Fiche     |
-|:--------------------------|:-------------------------------------------------------------------------------------------|:-------------|:-----------|:----------|
-| L’échelle à crochets      | Théorique en salle sur la nomenclature: ils préparent un exposé sur nomenclature et usages | Sécurité++   | 118-119    | INC \- B2 |
-| Les points d’eau incendie |                                                                                            |              | 144 \- 148 | INC \- C2 |
-| Manœuvres                 |                                                                                            |              |            |           |
+| Thème                     | Méthode                                                                                    | Insister sur | Livre J3 | Fiche  |
+|:--------------------------|:-------------------------------------------------------------------------------------------|:-------------|:---------|:-------|
+| L'échelle à crochets      | Théorique en salle sur la nomenclature: ils préparent un exposé sur nomenclature et usages | Sécurité\+\+ | 140      | INC-B2 |
+| Les points d'eau incendie |                                                                                            |              | 144-148  | INC-C2 |
+| Manœuvres                 |                                                                                            |              |          |        |
 
-## Cours 6 (25/01/2026)
+## Cours 6 (15/11/2026)
 
-| Thème                                      | Méthode                                             | Insister sur                                                                                               | Livre J3   | Fiche     |
-|:-------------------------------------------|:----------------------------------------------------|:-----------------------------------------------------------------------------------------------------------|:-----------|:----------|
-| Les établissements                         | Pratique ETB1, ETB2, ETB3 de plain pied et en étage | Demander si besoin de réviser ETB après l’éval pour décomposer la manœuvre Un chef J3-J4 et un équipier J2 | 149 \- 155 | INC \- C3 |
-| Les moyens facilitant l’action des secours |                                                     |                                                                                                            | 156 \- 157 | INC \- C4 |
-| Manœuvres                                  |                                                     |                                                                                                            |            |           |
+| Thème                                      | Méthode                                             | Insister sur                                                                                               | Livre J3 | Fiche  |
+|:-------------------------------------------|:----------------------------------------------------|:-----------------------------------------------------------------------------------------------------------|:---------|:-------|
+| Les établissements                         | Pratique ETB1, ETB2, ETB3 de plain pied et en étage | Demander si besoin de réviser ETB après l'éval pour décomposer la manœuvre Un chef J3-J4 et un équipier J2 | 149-155  | INC-C3 |
+| Les moyens facilitant l'action des secours |                                                     |                                                                                                            | 156-164  | INC-C4 |
+| Manœuvres                                  |                                                     |                                                                                                            |          |        |
 
-## Cours 7 (01/02/2026)
+## Cours 7 (22/11/2026)
 
-| Thème                                     | Méthode | Insister sur     | Livre J3 | Fiche     |
-|:------------------------------------------|:--------|:-----------------|:---------|:----------|
-| L’explosimétrie et la coupure des fluides |         |                  |          | INC \- A1 |
-| L’engagement sous ARI                     |         | Ligne guide \+++ |          | INC \- A2 |
-| Manœuvres                                 |         |                  |          |           |
+| Thème                                   | Méthode                                                                                               | Insister sur                                                                                                                                                                                            | Livre J3 | Fiche   |
+|:----------------------------------------|:------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------|:--------|
+| Matériels d'épuisement et d'assèchement | Théorique: calcul de volumes, différences entre assèchement et épuisement, puis pratique devant le CS | La propreté de l'établissement<br>la cavitation<br>Calculs de durée<br>sécurité: pas de groupe thermique en intérieur, utiliser le disjoncteur de l’aspi du VTU, etc<br>attention à la prise de terre ! | 165-167  | PPBE-A1 |
 
-## Cours 8 (01/03/2026) \- partiel et révisions à la carte
+## Cours 8 (29/11/2026)
 
-| Thème                                                   | Méthode                                      | Insister sur                                                                                                             | Livre J3 | Fiche |
-|:--------------------------------------------------------|:---------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------|:---------|:------|
-| Révisions: 90 minutes                                   | Théorique                                    | Demander aux formateurs les points bloquants                                                                             |          |       |
-| “Partiel”: mini 1h                                      | Interrogation écrite                         | La concision: “plus t’écris, plus t’as de chance d’avoir faux” Se calmer et lire toutes les questions avant de se lancer |          |       |
-| Correction interrogation \+ éventuellement re-révisions | Sous-groupes suivant le nombre de formateurs |                                                                                                                          |          |       |
+| Thème                                      | Méthode | Insister sur                                       | Livre J3 | Fiche  |
+|:-------------------------------------------|:--------|:---------------------------------------------------|:---------|:-------|
+| L'explosimétrie et la coupure des fluides  |         | Ce qu'on peut couper (seulement les vannes client) | 98-108   | INC-A1 |
+| Les moyens facilitant l'action des secours |         |                                                    | 156-164  | INC-C4 |
+| Manœuvres                                  |         |                                                    |          |        |
 
-## Cours 9 (08/03/2026)
+## Cours 9 (06/12/2026)
 
-| Thème                                   | Méthode                                                                   | Insister sur                                                                                                                | Livre J3 | Fiche      |
-|:----------------------------------------|:--------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------|:---------|:-----------|
-| Matériels d’épuisement et d’assèchement | Théorique: calcul de volumes, différences entre assèchement et épuisement | La “propreté” de l’établissement, la cavitation Calculs de durée                                                            | 165-167  | PPBE \- A1 |
-| Les pompes                              | Pratique devant le CS                                                     | Sécu : pas de groupe thermique en intérieur, utiliser le disjoncteur de l’aspi du VTU, etc Attention à la prise de terre \! | 165-167  | PPBE \- A1 |
-| La préparation physique                 |                                                                           |                                                                                                                             | 197-202  | APS \- A1  |
-| L’hygiène de vie                        |                                                                           |                                                                                                                             | 203-204  | APS \- A2  |
-| Manœuvres                               | Pratique sur le plateau                                                   | Fluidité & communication, ouverture de l’eau                                                                                |          |            |
+| Thème                                                 | Méthode                       | Insister sur                                                              | Livre J3 | Fiche  |
+|:------------------------------------------------------|:------------------------------|:--------------------------------------------------------------------------|:---------|:-------|
+| L'engagement sous ARI                                 |                               | La communication chef / équipier<br>Le contrôle croisé<br>Ligne guide +++ | 109-121  | INC-A2 |
+| Les risques majeurs et l'information de la population | Exposé - Un binôme par risque |                                                                           | 169-190  | SC-A1  |
+| Manœuvres                                             |                               |                                                                           |          |        |
 
-## Cours 10 \- journée manœuvres 14/03/2026
+## Cours 10 (13/12/2026)
 
-## Cours 11 (22/03/2026)
+| Thème                                                  | Méthode            | Insister sur                                                                                                                                                            | Livre J3 | Fiche  |
+|:-------------------------------------------------------|:-------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------|:-------|
+| Les systèmes d'information et de communication         |                    |                                                                                                                                                                         | 122-130  | INC-A3 |
+| Le lot de sauvetage et de protection contre les chutes | Travail en groupes | Faire 3 groupes qui expliquent chacun: sauvetage par l'extérieur, reconnaissance (point fixe humain), sauvetage en excavation<br>Demander qui fait quoi \+ précautions. | 132-139  | INC-B1 |
+| L'organisation et les missions du SIS                  |                    |                                                                                                                                                                         | 192-195  | SC-B1  |
+| Manœuvres                                              |                    |                                                                                                                                                                         |          |        |
 
-| Thème                                      | Méthode | Insister sur                                       | Livre J3 | Fiche     |
-|:-------------------------------------------|:--------|:---------------------------------------------------|:---------|:----------|
-| L’explosimétrie et la coupure des fluides  | Théorie | Ce qu’on peut couper (seulement les vannes client) | 78 \- 88 | INC \- A1 |
-| Les moyens facilitant l’action des secours |         |                                                    |          | INC \- C4 |
-| Manœuvres                                  |         |                                                    |          |           |
+## Cours 11 (10/01/2027)
 
-## Cours 12 (29/03/2026)
+| Thème                              | Méthode                                             | Insister sur                                                                                               | Livre J3 | Fiche  |
+|:-----------------------------------|:----------------------------------------------------|:-----------------------------------------------------------------------------------------------------------|:---------|:-------|
+| Notions élémentaires d'hydraulique |                                                     |                                                                                                            | 143      | INC-C1 |
+| Les points d'eau incendie          |                                                     |                                                                                                            | 144-148  | INC-C2 |
+| Les établissements                 | Pratique ETB1, ETB2, ETB3 de plain pied et en étage | Demander si besoin de réviser ETB après l'éval pour décomposer la manœuvre Un chef J3-J4 et un équipier J2 | 149-155  | INC-C3 |
+| Manœuvres                          |                                                     |                                                                                                            |          |        |
 
-| Thème                                                 | Méthode | Insister sur         | Livre J3   | Fiche     |
-|:------------------------------------------------------|:--------|:---------------------|:-----------|:----------|
-| L’engagement sous ARI                                 |         | Ligne guide \+++     |            | INC \- A2 |
-| Les risques majeurs et l’information de la population | Exposé  | Un binôme par risque | 147 \- 168 | SC \- A1  |
-| Manœuvres                                             |         |                      |            |           |
+## Cours 12 (17/01/2027)
 
-## Cours 13 (26/04/2026)
+| Thème                                     | Méthode | Insister sur                                       | Livre J3 | Fiche  |
+|:------------------------------------------|:--------|:---------------------------------------------------|:---------|:-------|
+| L'explosimétrie et la coupure des fluides |         | Ce qu'on peut couper (seulement les vannes client) | 98-108   | INC-A1 |
+| Manœuvres                                 |         |                                                    |          |        |
 
-| Thème                                          | Méthode            | Insister sur                                                                                                                                                          | Livre J3 | Fiche     |
-|:-----------------------------------------------|:-------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------|:----------|
-| Les systèmes d’information et de communication |                    |                                                                                                                                                                       |          | INC \- A3 |
-| L’organisation et les missions du SIS          |                    |                                                                                                                                                                       |          | SC \- B1  |
-| LSPCC                                          | Travail en groupes | Faire 3 groupes qui expliquent chacun: sauvetage par l'extérieur, reconnaissance (point fixe humain), sauvetage en excavation. Demander qui fait quoi \+ précautions. |          | INC \- B1 |
-| Manœuvres                                      |                    |                                                                                                                                                                       |          |           |
+## Cours 13 (24/01/2027)
 
-## Cours 14 (03/05/2026)
+| Thème                                                 | Méthode                       | Insister sur                                                              | Livre J3 | Fiche  |
+|:------------------------------------------------------|:------------------------------|:--------------------------------------------------------------------------|:---------|:-------|
+| L'engagement sous ARI                                 |                               | La communication chef / équipier<br>Le contrôle croisé<br>Ligne guide +++ | 109-121  | INC-A2 |
+| Les risques majeurs et l'information de la population | Exposé - Un binôme par risque |                                                                           | 169-190  | SC-A1  |
+| Manœuvres                                             |                               |                                                                           |          |        |
 
-| Thème                              | Méthode | Insister sur | Livre J3   | Fiche     |
-|:-----------------------------------|:--------|:-------------|:-----------|:----------|
-| Notions élémentaires d’hydraulique |         |              | 143        | INC \- C1 |
-| Les points d’eau incendie          |         |              | 144 \- 148 | INC \- C2 |
-| Les établissements                 |         |              | 149 \- 154 | INC \- C3 |
-| Manœuvres                          |         |              |            |           |
+## Partiel et révisions à la carte (24/01/2027)
 
-## Cours 16 (10/05/2026)
+| Thème                                                   | Méthode                                      | Insister sur                                                                                                                 | Livre J3 | Fiche |
+|:--------------------------------------------------------|:---------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------|:---------|:------|
+| Révisions: 90 minutes                                   | Théorique                                    | Demander aux formateurs les points bloquants                                                                                 |          |       |
+| “Partiel”: mini 1h                                      | Interrogation écrite                         | La concision: “plus t’écris, plus t’as de chance d’avoir faux”.<br>Se calmer et lire toutes les questions avant de se lancer |          |       |
+| Correction interrogation \+ éventuellement re-révisions | Sous-groupes suivant le nombre de formateurs |                                                                                                                              |          |       |
 
-| Thème                                           | Méthode | Insister sur | Livre J3   | Fiche     |
-|:------------------------------------------------|:--------|:-------------|:-----------|:----------|
-| Organisation et missions du SIS                 |         |              | 191 \- 195 | SC \- B1  |
-| Risques majeurs et informations à la population |         |              | 168 \- 190 | SC \- A1  |
-| L’échelle à crochets                            |         | Sécurité++   | 118-119    | INC \- B2 |
+## Cours 14 (31/01/2027)
 
-## Cours 17 (17/05/2026)
+| Thème                                          | Méthode | Insister sur | Livre J3 | Fiche  |
+|:-----------------------------------------------|:--------|:-------------|:---------|:-------|
+| Les systèmes d'information et de communication |         |              | 122-130  | INC-A3 |
+| L'organisation et les missions du SIS          |         |              | 192-195  | SC-B1  |
+| Manœuvres                                      |         |              |          |        |
 
-| Thème                 | Méthode | Insister sur | Livre J3 | Fiche     |
-|:----------------------|:--------|:-------------|:---------|:----------|
-| L’engagement sous ARI |         |              |          | INC \- A2 |
+## Cours 15 (07/03/2027)
 
-## Cours 18 (24/05/2026)
+| Thème                                                  | Méthode            | Insister sur                                                                                                                                                            | Livre J3 | Fiche  |
+|:-------------------------------------------------------|:-------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------|:-------|
+| Le lot de sauvetage et de protection contre les chutes | Travail en groupes | Faire 3 groupes qui expliquent chacun: sauvetage par l'extérieur, reconnaissance (point fixe humain), sauvetage en excavation<br>Demander qui fait quoi \+ précautions. | 132-139  | INC-B1 |
+| Notions élémentaires d'hydraulique                     |                    |                                                                                                                                                                         | 143      | INC-C1 |
+| Manœuvres                                              |                    |                                                                                                                                                                         |          |        |
 
-Pas de cours, pentecôte
+## Cours 16 (14/03/2027)
 
-## Cours 19 (31/05/2026)
+| Thème                     | Méthode                                                                                    | Insister sur | Livre J3 | Fiche  |
+|:--------------------------|:-------------------------------------------------------------------------------------------|:-------------|:---------|:-------|
+| L'échelle à crochets      | Théorique en salle sur la nomenclature: ils préparent un exposé sur nomenclature et usages | Sécurité\+\+ | 140      | INC-B2 |
+| Les points d'eau incendie |                                                                                            |              | 144-148  | INC-C2 |
+| Manœuvres                 |                                                                                            |              |          |        |
 
-| Thème                | Méthode              | Insister sur                                                                                                             | Livre J3 | Fiche |
-|:---------------------|:---------------------|:-------------------------------------------------------------------------------------------------------------------------|:---------|:------|
-| Interrogation        | Interrogation écrite | La concision: “plus t’écris, plus t’as de chance d’avoir faux” Se calmer et lire toutes les questions avant de se lancer |          |       |
-| Révisions à la carte |                      |                                                                                                                          |          |       |
+## Cours 17 (21/03/2027)
+
+| Thème                                      | Méthode                                             | Insister sur                                                                                               | Livre J3 | Fiche  |
+|:-------------------------------------------|:----------------------------------------------------|:-----------------------------------------------------------------------------------------------------------|:---------|:-------|
+| Les établissements                         | Pratique ETB1, ETB2, ETB3 de plain pied et en étage | Demander si besoin de réviser ETB après l'éval pour décomposer la manœuvre Un chef J3-J4 et un équipier J2 | 149-155  | INC-C3 |
+| Les moyens facilitant l'action des secours |                                                     |                                                                                                            | 156-164  | INC-C4 |
+| Manœuvres                                  |                                                     |                                                                                                            |          |        |
+
+## Cours 18 (28/03/2027)
+
+| Thème                                   | Méthode                                                                                               | Insister sur                                                                                                                                                                                            | Livre J3 | Fiche   |
+|:----------------------------------------|:------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------|:--------|
+| Matériels d'épuisement et d'assèchement | Théorique: calcul de volumes, différences entre assèchement et épuisement, puis pratique devant le CS | La propreté de l'établissement<br>la cavitation<br>Calculs de durée<br>sécurité: pas de groupe thermique en intérieur, utiliser le disjoncteur de l’aspi du VTU, etc<br>attention à la prise de terre ! | 165-167  | PPBE-A1 |
+
+## Cours 19 (02/05/2027)
+
+| Thème                                      | Méthode | Insister sur                                       | Livre J3 | Fiche  |
+|:-------------------------------------------|:--------|:---------------------------------------------------|:---------|:-------|
+| L'explosimétrie et la coupure des fluides  |         | Ce qu'on peut couper (seulement les vannes client) | 98-108   | INC-A1 |
+| Les moyens facilitant l'action des secours |         |                                                    | 156-164  | INC-C4 |
+| Manœuvres                                  |         |                                                    |          |        |
+
+## Cours 20 (09/05/2027)
+
+| Thème                                                 | Méthode                       | Insister sur                                                              | Livre J3 | Fiche  |
+|:------------------------------------------------------|:------------------------------|:--------------------------------------------------------------------------|:---------|:-------|
+| L'engagement sous ARI                                 |                               | La communication chef / équipier<br>Le contrôle croisé<br>Ligne guide +++ | 109-121  | INC-A2 |
+| Les risques majeurs et l'information de la population | Exposé - Un binôme par risque |                                                                           | 169-190  | SC-A1  |
+| Manœuvres                                             |                               |                                                                           |          |        |
+
+## Cours 21 (16/05/2027)
+
+| Thème                                                  | Méthode            | Insister sur                                                                                                                                                            | Livre J3 | Fiche  |
+|:-------------------------------------------------------|:-------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------|:-------|
+| Les systèmes d'information et de communication         |                    |                                                                                                                                                                         | 122-130  | INC-A3 |
+| Le lot de sauvetage et de protection contre les chutes | Travail en groupes | Faire 3 groupes qui expliquent chacun: sauvetage par l'extérieur, reconnaissance (point fixe humain), sauvetage en excavation<br>Demander qui fait quoi \+ précautions. | 132-139  | INC-B1 |
+| L'organisation et les missions du SIS                  |                    |                                                                                                                                                                         | 192-195  | SC-B1  |
+| Manœuvres                                              |                    |                                                                                                                                                                         |          |        |
+
+## Cours 22 (23/05/2027)
+
+| Thème                              | Méthode                                             | Insister sur                                                                                               | Livre J3 | Fiche  |
+|:-----------------------------------|:----------------------------------------------------|:-----------------------------------------------------------------------------------------------------------|:---------|:-------|
+| Notions élémentaires d'hydraulique |                                                     |                                                                                                            | 143      | INC-C1 |
+| Les points d'eau incendie          |                                                     |                                                                                                            | 144-148  | INC-C2 |
+| Les établissements                 | Pratique ETB1, ETB2, ETB3 de plain pied et en étage | Demander si besoin de réviser ETB après l'éval pour décomposer la manœuvre Un chef J3-J4 et un équipier J2 | 149-155  | INC-C3 |
+| Manœuvres                          |                                                     |                                                                                                            |          |        |
+
+## Cours 23 (30/05/2027)
+
+| Thème                                     | Méthode | Insister sur                                       | Livre J3 | Fiche  |
+|:------------------------------------------|:--------|:---------------------------------------------------|:---------|:-------|
+| L'explosimétrie et la coupure des fluides |         | Ce qu'on peut couper (seulement les vannes client) | 98-108   | INC-A1 |
+| Manœuvres                                 |         |                                                    |          |        |
+
+## Cours 24 (06/06/2027)
+
+| Thème                                                 | Méthode                       | Insister sur                                                              | Livre J3 | Fiche  |
+|:------------------------------------------------------|:------------------------------|:--------------------------------------------------------------------------|:---------|:-------|
+| L'engagement sous ARI                                 |                               | La communication chef / équipier<br>Le contrôle croisé<br>Ligne guide +++ | 109-121  | INC-A2 |
+| Les risques majeurs et l'information de la population | Exposé - Un binôme par risque |                                                                           | 169-190  | SC-A1  |
+| Manœuvres                                             |                               |                                                                           |          |        |
+
+## Cours 25 (13/06/2027)
+
+| Thème                                          | Méthode | Insister sur | Livre J3 | Fiche  |
+|:-----------------------------------------------|:--------|:-------------|:---------|:-------|
+| Les systèmes d'information et de communication |         |              | 122-130  | INC-A3 |
+| L'organisation et les missions du SIS          |         |              | 192-195  | SC-B1  |
+| Manœuvres                                      |         |              |          |        |
+
+## Cours 26 (20/06/2027)
+
+| Thème                                                  | Méthode            | Insister sur                                                                                                                                                            | Livre J3 | Fiche  |
+|:-------------------------------------------------------|:-------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------|:-------|
+| Le lot de sauvetage et de protection contre les chutes | Travail en groupes | Faire 3 groupes qui expliquent chacun: sauvetage par l'extérieur, reconnaissance (point fixe humain), sauvetage en excavation<br>Demander qui fait quoi \+ précautions. | 132-139  | INC-B1 |
+| Notions élémentaires d'hydraulique                     |                    |                                                                                                                                                                         | 143      | INC-C1 |
+| Manœuvres                                              |                    |                                                                                                                                                                         |          |        |
