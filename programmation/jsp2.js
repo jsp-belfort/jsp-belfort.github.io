@@ -8,19 +8,19 @@ const JSP2_DATES = LESSONS_DATES.filter(
 
 const JSP2_LESSONS = [
   ["INC-A1", "SC-A1"],
+  ["INC-C6"],
   ["INC-B1", "SC-B1"],
   ["INC-B2", "SC-B2"],
+  ["INC-B1", "INC-C6"],
   ["INC-C1", "INC-C2"],
   ["INC-C4", "INC-C5"],
   ["INC-C1", "INC-C2", "INC-C3"],
-  ["INC-C6"],
   ["INC-B1", "INC-C3", "SC-B1"],
   ["PPBE-A1", "PPBE-A2"],
   ["INC-B2", "SC-B2"],
   ["INC-A1", "INC-C4", "SC-A1"],
   ["PPBE-A1", "PPBE-A2"],
   ["INC-C5", "INC-C6"],
-  ["INC-A1", "INC-B1", "INC-B2"],
 ];
 
 const JSP2_LESSON_COUNTS = JSP2_DATES.reduce(

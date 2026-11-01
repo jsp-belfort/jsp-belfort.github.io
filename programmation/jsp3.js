@@ -1,12 +1,18 @@
 const JSP3_COLOR = "#f28a15";
 
-const JSP3_DATES_BLACKLIST = [];
+const JSP3_DATES_BLACKLIST = [
+  "2026-09-20",
+  "2026-09-27",
+  "2026-10-04",
+  "2026-10-11",
+];
 
 const JSP3_DATES = LESSONS_DATES.filter(
   (date) => !JSP3_DATES_BLACKLIST.includes(date),
 );
 
 const JSP3_LESSONS = [
+  ["INC-C3", "INC-B1", "M"],
   ["INC-A1", "M"],
   ["INC-A2", "SC-A1", "M"],
   ["INC-A3", "SC-B1", "M"],
