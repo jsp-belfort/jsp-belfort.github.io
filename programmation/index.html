@@ -62,7 +62,7 @@
       ];
 
       events = [
-        ...JSP1_EVENTS,
+        // ...JSP1_EVENTS,
         ...JSP2_EVENTS,
         ...JSP3_EVENTS,
         ...JSP4_EVENTS,
@@ -95,8 +95,8 @@
           dayMaxEventRows: false,
           dayMaxEvents: false,
           borderless: true,
-          initialDate: calendar_start_date,
-          initialView: "dayGridWeek",
+          initialDate: new Date(),
+          initialView: "dayGridMonth",
           multiMonthMaxColumns: 2,
           activeStart: calendar_start_date,
           activeEnd: calendar_end_date,
