@@ -9,7 +9,7 @@ The `programmation` directory contains annual lesson pages.
 1. Use the `dates.js` as base for the list of dates, and the `contents.js` as base for the list of contents.
 2. The dates blacklist object name is <section argument in uppercase>_DATES_BLACKLIST. The lessons list object name is <section argument in uppercase>_LESSONS. Use the dates blacklist to filter out the dates.
 3. If there are not enough elements in the lessons list, repeat the lessons from the beginning of the list until all filtered dates have a corresponding lesson. Display the generated lesson list in the chat.
-4. Insert the [mid-year exam](#mid-year-exam) as an additional entry after the halfway point of the generated lesson list. Do not replace or remove a lesson: all generated lessons must be preserved, and the entries after the exam must keep their original lesson indexes shifted by one. If there are too much items in the list, pop the last item.
+4. Insert the [mid-year exam](#mid-year-exam) as an additional entry after the halfway point of the generated lesson list. Do not replace or remove a lesson: all generated lessons must be preserved, and the entries after the exam must keep their original lesson indexes shifted by one. If there are too much items in the list, pop the last item. Also shift the dates after the mid-year exam.
 5. Write the `cours/<section>.md` file with the [following structure](#file-structure). The table mapping is shown [below](#table-mapping).
 6. To have the file formatted, run `pre-commit run --files cours/<section>.md` after the file is generated.
 

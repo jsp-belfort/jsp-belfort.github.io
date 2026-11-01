@@ -2,5 +2,6 @@
   "[markdown]": {
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.formatOnSave": true
-  }
+  },
+  "chat.tools.terminal.enableAutoApprove": true
 }
